@@ -1,0 +1,23 @@
+EV Market dataset preprocessing summary
+
+Input files:
+- ev_market_train.csv: 200,000 rows, 37 original fields + record_source
+- ev_market_test.csv: 100,000 rows, 37 original fields + record_source
+
+Combined:
+- Rows before exact-duplicate removal: 300,000
+- Exact duplicate records removed: 1
+- Rows after exact-duplicate removal: 299,999
+- Columns including record_source: 38
+- Missing cells remaining: 28,507
+
+Preprocessing decisions:
+1. Appended train and test because both files have the same 37 original columns and compatible schemas, for descriptive dashboarding.
+2. Added record_source (train/test) so source can be filtered or audited.
+3. Trimmed leading/trailing whitespace in text fields and converted blank text to missing values.
+4. Removed exact duplicate records only. No records were removed just because an ID matched.
+5. Preserved missing numeric values rather than filling them with arbitrary means/medians. Tableau can exclude nulls from a specific view, and the missingness should be documented.
+6. No outlier rows were deleted automatically. Values should be validated against the project brief/domain rules before excluding them.
+
+Important caveat:
+The train/test labels often indicate a split for machine-learning work. Combining them is appropriate for an exploratory descriptive dashboard only if SkillWallet's instructions permit it. If the assignment says to use train only, use the train file instead. Do not treat record_source as a business dimension.
