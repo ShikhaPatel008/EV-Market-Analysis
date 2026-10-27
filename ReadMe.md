@@ -82,11 +82,16 @@ Through this project, I strengthened my understanding of:
 - Project documentation
 - Supporting screenshots and phase-wise documentation, where included
 
-## Tableau Public
 
-**Explore the interactive dashboard and story here:**
+## 📊 Tableau Dashboard & Story
 
-[Add your Tableau Public project link here]
+Explore the interactive visualizations created for the **EV Market Analysis** project using Tableau Public.
+
+- **Interactive Dashboard:** [View Dashboard]((https://public.tableau.com/views/EVMarketAnalysisDashboard_17931323967320/GlobalEVMarketStrategyAnalysis?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+- **Project Story:** [Explore Story]([YOUR_STORY_LINK](https://public.tableau.com/views/GlobalEVmarketStory/Story1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+
+The dashboard presents key performance indicators and visual analysis of the electric vehicle market, while the Story guides viewers through the major visualizations and findings.
+
 
 ## Repository Structure
 
@@ -95,7 +100,7 @@ Global-EV-Market-Strategy-Analysis/
 │
 ├── README.md
 ├── data/
-│   └── dataset files (if permitted to share)
+│   └── dataset files 
 ├── documentation/
     ├── EV_Final_Outcome.pdf
     ├── EV_Market_Ideation_Phase.pdf
