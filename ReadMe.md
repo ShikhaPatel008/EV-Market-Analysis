@@ -87,8 +87,8 @@ Through this project, I strengthened my understanding of:
 
 Explore the interactive visualizations created for the **EV Market Analysis** project using Tableau Public.
 
-- **Interactive Dashboard:** [View Dashboard](YOUR_DASHBOARD_LINK)
-- **Project Story:** [[Explore Story](YOUR_STORY_LINK)](https://public.tableau.com/views/GlobalEVmarketStory/Story1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- **Interactive Dashboard:** [View Dashboard](https://public.tableau.com/views/EVMarketAnalysisDashboard_17931323967320/GlobalEVMarketStrategyAnalysis?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- **Project Story:** [Explore Story](https://public.tableau.com/views/GlobalEVmarketStory/Story1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 The dashboard presents key performance indicators and visual analysis of the electric vehicle market, while the Story guides viewers through the major visualizations and findings.
 
