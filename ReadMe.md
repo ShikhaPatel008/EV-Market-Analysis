@@ -97,14 +97,16 @@ Global-EV-Market-Strategy-Analysis/
 ├── data/
 │   └── dataset files (if permitted to share)
 ├── documentation/
-│   ├── project-overview.pdf
-│   ├── data-preparation.pdf
-│   ├── analysis-and-visualization.pdf
-│   └── project-completion-report.pdf
-├── screenshots/
-│   └── dashboard screenshots
-└── tableau/
-    └── Tableau workbook (if available)
+    ├── EV_Final_Outcome.pdf
+    ├── EV_Market_Ideation_Phase.pdf
+    ├── EV_Performance_Testing_Phase_Final.pdf
+    ├── EV_Project_Design_Phase_Updated.pdf
+    ├── EV_Project_Development_Phase.pdf
+    ├── EV_Project_Planning_Phase.pdf
+    ├── EV_Requirement_Analysis.pdf
+    └── README.md
+
+
 ```
 
 *The folder structure above is a suggested organization. Include only the files and deliverables that are actually present in the repository.*
